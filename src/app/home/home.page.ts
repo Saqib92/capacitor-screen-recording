@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScreenRecorder } from 'capacitor-screen-recorder';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +9,17 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+
+  startRecording(){
+    ScreenRecorder.start().then((res:any)=>{
+      console.log(res)
+    })
+  }
+
+  stopRecording(){
+    ScreenRecorder.stop().then((res)=>{
+      console.log(res)
+    })
+  }
 
 }
