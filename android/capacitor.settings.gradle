@@ -14,5 +14,5 @@ project(':capacitor-keyboard').projectDir = new File('../node_modules/@capacitor
 include ':capacitor-status-bar'
 project(':capacitor-status-bar').projectDir = new File('../node_modules/@capacitor/status-bar/android')
 
-include ':capacitor-screen-recorder'
-project(':capacitor-screen-recorder').projectDir = new File('../node_modules/capacitor-screen-recorder/android')
+include ':capgo-capacitor-screen-recorder'
+project(':capgo-capacitor-screen-recorder').projectDir = new File('../node_modules/@capgo/capacitor-screen-recorder/android')

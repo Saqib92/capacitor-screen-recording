@@ -16,7 +16,7 @@
 		"classpath": "com.capacitorjs.plugins.statusbar.StatusBarPlugin"
 	},
 	{
-		"pkg": "capacitor-screen-recorder",
+		"pkg": "@capgo/capacitor-screen-recorder",
 		"classpath": "ee.forgr.plugin.screenrecorder.ScreenRecorderPlugin"
 	}
 ]

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ScreenRecorder } from 'capacitor-screen-recorder';
+import { ScreenRecorder } from '@capgo/capacitor-screen-recorder';
 
 @Component({
   selector: 'app-home',
